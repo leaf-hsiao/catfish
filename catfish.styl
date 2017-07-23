@@ -1,0 +1,200 @@
+//custom fonts
+
+@font-face
+    font-family Source Han Sans
+    font-weight normal
+    src local('Source Han Sans Regular'),url(catfish/SourceHanSans-Regular.ttc)
+
+@font-face
+    font-family Source Han Sans
+    font-weight bold
+    src local('Source Han Sans Bold'),url(catfish/SourceHanSans-Bold.ttc)
+
+@font-face
+    font-family Source Han Serif
+    font-weight normal
+    src local('Source Han Serif Regular'),url(catfish/SourceHanSerif-Regular.ttc)
+  
+@font-face
+    font-family Source Han Serif
+    font-weight bold
+    src local('Source Han Serif Bold'),url(catfish/SourceHanSerif-Bold.ttc)
+
+@font-face
+    font-family mononoki
+    font-style normal
+    font-weight normal
+    src local('mononoki Regular'),url(catfish/mononoki-Regular.woff)
+
+@font-face
+    font-family mononoki
+    font-style italic
+    font-weight normal
+    src local('mononoki Italic'),url(catfish/mononoki-Italic.woff)
+
+@font-face
+    font-family mononoki
+    font-style normal
+    font-weight bold
+    src local('mononoki Bold'),url(catfish/mononoki-Bold.woff)
+
+@font-face
+    font-family mononoki
+    font-style italic
+    font-weight bold
+    src local('mononoki Bold Italic'),url(catfish/mononoki-BoldItalic.woff)
+
+font-sans = Source Han Sans,Noto,Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,Arial,sans-serif
+
+font-serif = Source Han Serif,Noto Serif,serif
+
+font-mono = mononoki,Monaco,Consolas,Courier New,monospace
+
+html
+    font-size 16px
+
+body
+    background #fff
+    font-family font-sans
+    color #555
+
+#write
+    max-width 60em
+  	margin 0 auto
+  	padding 20px 30px 50px
+
+//typography
+
+h1, h2, h3, h4, h5, h6
+    position relative
+    margin-top 1em
+    margin-bottom 1em
+    font-weight bold
+    line-height 1.4em
+
+h1
+    font-size 2em
+    line-height 1.2em
+
+h2
+    font-size 1.5em
+    line-height 1.225em
+
+h3
+    font-size 1.3em
+    line-height 1.43em
+
+h4
+    font-size 1.2em
+
+h5
+    font-size 1em
+
+h6
+    font-size 1em
+    color #999
+
+hr
+    border 1px solid #ddd
+
+//links
+
+a
+    text-decoration none
+    color #258fb8
+
+a
+    &:hover,&:active
+        text-decoration underline
+
+//lists
+
+ul,ol
+    padding-left 2em
+
+.task-list
+	padding-left 2em
+
+.task-list-item
+	padding-left 1.6em
+
+.task-list-item
+    input
+        top 3px
+        left 8px
+
+//tables
+
+table
+    width: 100%
+    border-collapse: collapse
+    border-spacing: 0
+    th
+        font-weight: bold
+        border-bottom: 3px solid #ddd
+        padding-bottom: 0.5em
+    td
+        border-bottom: 1px solid #ddd
+        padding: 10px 0
+
+
+//blockquotes
+
+blockquote
+    border-left 5px solid #ddd
+    padding-left 0.5em
+    font-family font-serif
+    color: #555
+
+blockquote blockquote
+    padding-right 0
+
+//code fences
+
+.md-fences,code,tt
+    margin 0 0.3em
+    padding 0 0.3em
+    background #eee
+    font-family font-mono
+    text-shadow 0 1px #fff
+
+.md-fences
+    margin 15px auto
+    padding 0.7em 1em
+    text-shadow none
+
+@import "catfish/material"
+
+//YAML front matters
+//based on github.css
+@css{
+    #write pre.md-meta-block {
+        padding: 1em;
+        background-color: #f7f7f7;
+        border: 0;
+        border-radius: 3px;
+        color: #777777;
+        margin-top: 0 !important;
+    }
+}
+
+//image meta
+.md-image>.md-meta
+    color inherit
+
+header, .context-menu, .megamenu-content, footer
+    font-family font-sans
+
+//print
+@media print
+    html
+        font-size 13px
+    table,
+    pre
+        page-break-inside: avoid;
+    pre
+        word-wrap break-word
+
+//controller
+header, .context-menu, .megamenu-content, footer
+    font-family Helvetica Neue,Helvetica,Segoe UI,Arial,sans-serif
