@@ -47,7 +47,7 @@ html {
 }
 body {
   background: #fff;
-  font-family: Source Han Sans, Noto, Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, Arial, sans-serif;
+  font-family: Source Han Sans SC, sans-serif;
   color: #555;
 }
 #write {
@@ -132,7 +132,7 @@ table td {
 blockquote {
   border-left: 5px solid #ddd;
   padding-left: 0.5em;
-  font-family: Source Han Serif, Noto Serif, serif;
+  font-family: Source Han Serif SC, serif;
   color: #555;
 }
 blockquote blockquote {
@@ -144,7 +144,7 @@ tt {
   margin: 0 0.3em;
   padding: 0 0.3em;
   background: #eee;
-  font-family: mononoki, Monaco, Consolas, Courier New, monospace;
+  font-family: mononoki, monospace;
   text-shadow: 0 1px #fff;
 }
 .md-fences {
@@ -289,7 +289,7 @@ header,
 .context-menu,
 .megamenu-content,
 footer {
-  font-family: Source Han Sans, Noto, Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, Arial, sans-serif;
+  font-family: Source Han Sans SC, sans-serif;
 }
 @media print {
   html {
