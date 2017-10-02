@@ -274,6 +274,9 @@ tt {
   .md-fences .code-tooltip {
   background-color: #263238;
   }
+.CodeMirror div.CodeMirror-cursor {
+  border-left: 1px solid #e4629a;
+}
 
   #write pre.md-meta-block {
       padding: 1em;
