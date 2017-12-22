@@ -312,3 +312,6 @@ header,
 footer {
   font-family: Helvetica Neue, Helvetica, Segoe UI, Arial, sans-serif;
 }
+.md-diagram-panel-preview {
+  color: #263238;
+}
