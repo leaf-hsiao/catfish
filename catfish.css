@@ -52,8 +52,7 @@ body {
 }
 #write {
   max-width: 60em;
-}
-margin 0 auto {
+  margin: 0 auto;
   padding: 20px 30px 50px;
 }
 h1,
