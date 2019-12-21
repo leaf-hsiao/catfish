@@ -140,11 +140,11 @@ blockquote blockquote {
 .md-fences,
 code,
 tt {
-  margin: 0 0.3em;
+  margin: 0 0.2em;
   padding: 0 0.3em;
-  background: #eee;
+  background: #263238;
   font-family: mononoki, monospace;
-  text-shadow: 0 1px #fff;
+  color: #e9eded;
 }
 .md-fences {
   margin: 15px auto;
